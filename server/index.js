@@ -7,7 +7,6 @@ import commentRoutes from "./routes/comments.js";
 import authRoutes from "./routes/auth.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
-// import { corsOptions } from "./corsOptions.js";
 
 const app = express();
 dotenv.config();
